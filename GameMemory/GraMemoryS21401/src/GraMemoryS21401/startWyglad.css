@@ -1,0 +1,7 @@
+.button{
+    -fx-text-fill: black;
+    -fx-background-color: linear-gradient(to bottom right, plum, skyblue);
+}
+
+#etykieta{
+}

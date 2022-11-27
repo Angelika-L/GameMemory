@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" stylesheets="@../startWyglad.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GraMemoryS21401.serviceGame.ControllerGame">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <GridPane BorderPane.alignment="CENTER">
+              <columnConstraints>
+
+              </columnConstraints>
+              <rowConstraints>
+
+              </rowConstraints>
+            </GridPane>
+         </center>
+         <top>
+            <Label text="GRA MEMORY:" textOverrun="WORD_ELLIPSIS" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </top>
+         <right>
+            <ScrollBar disable="true" orientation="VERTICAL" BorderPane.alignment="CENTER" />
+         </right>
+         <bottom>
+            <TextField alignment="CENTER" editable="false" text="12:44" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="Monospaced Bold" size="24.0" />
+               </font></TextField>
+         </bottom>
+      </BorderPane>
+   </children>
+
+</VBox>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="332.0" prefWidth="490.0" stylesheets="@startWyglad.css" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GraMemoryS21401.serviceGame.ControllerStartLayout">
+   <Pane prefHeight="257.0" prefWidth="458.0">
+      <children>
+          <Button layoutX="209.0" layoutY="159.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="72.0" text="Wyjście">
+            <font>
+               <Font name="Monospaced Regular" size="12.0" />
+            </font>
+         </Button>
+          <Button layoutX="215.0" layoutY="128.0" onAction="#changeText" text="Wyniki">
+            <font>
+               <Font name="Monospaced Regular" size="12.0" />
+            </font>
+         </Button>
+          <Button fx:id="start1" contentDisplay="CENTER" layoutX="182.0" layoutY="96.0" onAction="#start" prefHeight="23.0" prefWidth="125.0" text="Rozpocznij grę">
+            <font>
+               <Font name="Monospaced Bold" size="12.0" />
+            </font>
+         </Button>
+      
+          <Label fx:id="etykieta" contentDisplay="CENTER" layoutX="136.0" layoutY="14.0" text="GRA MEMORY:" textOverrun="WORD_ELLIPSIS">
+            <font>
+               <Font name="JetBrains Mono Bold" size="33.0" />
+            </font>
+         </Label>
+          <Label fx:id="etykietaAutor" contentDisplay="CENTER" layoutX="222.0" layoutY="54.0" text="s21401" textOverrun="WORD_ELLIPSIS" />
+      </children>
+   </Pane>
+
+</VBox>
